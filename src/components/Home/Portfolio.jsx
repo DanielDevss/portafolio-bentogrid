@@ -1,9 +1,8 @@
-import { FaArrowUpRightFromSquare } from "react-icons/fa6";
-
+import ProyectItem from "../ProyectItem";
 
 const Portfolio = () => {
   return (
-    <main className="portfolio">
+    <main className="portfolio" id="projects">
         <header className="portfolio__header">
             <h1 className="title-alien">Proyectos</h1>
         </header>
@@ -13,29 +12,9 @@ const Portfolio = () => {
             </aside>
 
             <section className="portfolio__proyectos">
-
-                <article className="portfolio__item">
-                    <section className="portfolio__item__info">
-                        <a  className="link" href=""><span className="">Ver proyecto</span> <FaArrowUpRightFromSquare /></a>
-                        <h2>Nombre del proyecto</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem nemo dicta ea non culpa maxime exercitationem rerum excepturi fuga. Autem eligendi iure quos nam, veritatis illum eveniet voluptatum porro perspiciatis molestias nostrum illo.</p>
-                    </section>
-                    <figure className="portfolio__item__figure">
-                        <img src="https://via.placeholder.com/800x600" alt="Imagen de prueba" />
-                    </figure>
-                </article>
-
-                <article className="portfolio__item">
-                    <section className="portfolio__item__info">
-                        <a className="link"  href=""><span className="">Ver proyecto</span> <FaArrowUpRightFromSquare /></a>
-                        <h2>Nombre del proyecto</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem nemo dicta ea non culpa maxime exercitationem rerum excepturi fuga. Autem eligendi iure quos nam, veritatis illum eveniet voluptatum porro perspiciatis molestias nostrum illo.</p>
-                    </section>
-                    <figure className="portfolio__item__figure">
-                        <img src="https://via.placeholder.com/800x600" alt="Imagen de prueba" />
-                    </figure>
-                </article>
-
+                
+                <ProyectItem img={"https://via.placeholder.com/500x400"} title="Titulo del proyecto" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolorem dolore consectetur ipsa consequuntur dicta tempore aut autem quaerat iste quod placeat ipsam voluptas nisi pariatur ut maxime, alias dolor.</ProyectItem>
+            
             </section>
         </article>
     </main>

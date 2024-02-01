@@ -18,10 +18,10 @@ const Navbar = () => {
           <img height={50} src={Isotipo} alt="DaniDevs Logotipo" />
         </a>
         <nav className="navbar__nav">
-          <Link className="navbar__link" to={"#home"}>Sobre mí</Link>
-          <Link className="navbar__link" to={"#home"}>Servicios</Link>
-          <Link className="navbar__link" to={"#home"}>Portfolio</Link>
-          <Link className="navbar__link" to={"#home"}>Contacto</Link>
+          <a className="navbar__link" href={"#home"}>Sobre mí</a>
+          <a className="navbar__link" href={"#services"}>Servicios</a>
+          <a className="navbar__link" href={"#prejects"}>Portfolio</a>
+          <a className="navbar__link" href={"#home"}>Contacto</a>
         </nav>
       </section>
     </header>
