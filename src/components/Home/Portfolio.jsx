@@ -1,3 +1,4 @@
+import { projects } from "../../data/data";
 import ProyectItem from "../ProyectItem";
 
 const Portfolio = () => {
@@ -12,8 +13,11 @@ const Portfolio = () => {
             </aside>
 
             <section className="portfolio__proyectos">
+
+                {projects.map(({name, cover, description, link}, key) => (
+                    <ProyectItem key={key} link={link} img={cover} title={name} >{description}</ProyectItem>
+                ))}
                 
-                <ProyectItem img={"https://via.placeholder.com/500x400"} title="Titulo del proyecto" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolorem dolore consectetur ipsa consequuntur dicta tempore aut autem quaerat iste quod placeat ipsam voluptas nisi pariatur ut maxime, alias dolor.</ProyectItem>
             
             </section>
         </article>

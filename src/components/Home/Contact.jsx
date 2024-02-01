@@ -15,7 +15,7 @@ const Contact = () => {
 
         <section className="contact__section">
           <h3>¿Tienes un proyecto en mente? Vamos a aterrizarlo.</h3>
-          <a className="btn-green" href="">Escribeme</a>
+          <a className="btn-green" >Escribeme</a>
 
           <ul className="contacto__list">
             {redes.map((item, key) => (
