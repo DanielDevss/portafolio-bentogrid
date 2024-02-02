@@ -3,7 +3,7 @@ import ProyectItem from "../ProyectItem";
 
 const Portfolio = () => {
   return (
-    <main className="portfolio" id="projects">
+    <main className="portfolio" id="prejects">
         <header className="portfolio__header">
             <h1 className="title-alien">Proyectos</h1>
         </header>

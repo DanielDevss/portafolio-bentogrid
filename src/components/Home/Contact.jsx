@@ -2,7 +2,7 @@ import { redes } from "../../data/data"
 
 const Contact = () => {
   return (
-    <footer className="contact">
+    <footer id="contact" className="contact">
       
       <header className="contact__header">
         <h2 className="title-alien">Contactame</h2>
@@ -15,7 +15,7 @@ const Contact = () => {
 
         <section className="contact__section">
           <h3>¿Tienes un proyecto en mente? Vamos a aterrizarlo.</h3>
-          <a className="btn-green" >Escribeme</a>
+          <a href="https://wa.link/slmyje" target="_blank" rel="noreferrer" className="btn-green" >Escribeme</a>
 
           <ul className="contacto__list">
             {redes.map((item, key) => (

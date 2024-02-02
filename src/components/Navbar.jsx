@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import Isotipo from "../assets/svg/iso.svg";
 
 const Navbar = () => {
@@ -21,7 +20,7 @@ const Navbar = () => {
           <a className="navbar__link" href={"#home"}>Sobre mí</a>
           <a className="navbar__link" href={"#services"}>Servicios</a>
           <a className="navbar__link" href={"#prejects"}>Portfolio</a>
-          <a className="navbar__link" href={"#home"}>Contacto</a>
+          <a className="navbar__link" href={"#contact"}>Contacto</a>
         </nav>
       </section>
     </header>

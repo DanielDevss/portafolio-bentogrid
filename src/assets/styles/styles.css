@@ -16,6 +16,7 @@
     font-family: "Montserrat", Helvetiva, sans-serif;
     box-sizing: border-box;
     color: #ededed;
+    scroll-behavior: smooth;
 }
 html, body{
     height: 100vh;
