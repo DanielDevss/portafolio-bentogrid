@@ -1,6 +1,7 @@
 import Logo from "../../assets/img/logo.png";
 import { MdPhoneCallback } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io";
+import CV from "../../assets/pdf/CV.pdf";
 
 import CSS from "../../assets/img/tecs/css.png";
 import EXPRESS from "../../assets/img/tecs/express.png";
@@ -80,7 +81,7 @@ const AboutMe = () => {
             </article>
 
             <article className="aboutme__cv ">
-                <a href="" download="" className="btn-green">Descargar CV</a>
+                <a href={CV} download="LuisDanielDelaRosa_CV.pdf" className="btn-green">Descargar CV</a>
             </article>
 
         </section>
