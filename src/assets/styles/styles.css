@@ -846,6 +846,7 @@ a{
 .portfolio__proyectos{
     display: flex;
     flex-direction: column;
+    list-style: none;
 }
 
 .portfolio__item{

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const ProyectItem = ({title, link, img, children}) => {
     return (
-        <article className="portfolio__item">
+        <li className="portfolio__item">
             <section className="portfolio__item__info">
                 <a target="_blank" rel="noreferrer" className="link" href={link}><span>Ver proyecto</span> <HiMiniArrowTopRightOnSquare /></a>
                 <h2>{title}</h2>
@@ -12,7 +12,7 @@ const ProyectItem = ({title, link, img, children}) => {
             <figure className="portfolio__item__figure">
                 <img src={img} alt="Imagen de prueba" />
             </figure>
-        </article>
+        </li>
     )
 }
 
