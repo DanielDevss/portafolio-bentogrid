@@ -28,13 +28,13 @@ const AboutMe = () => {
         {name:"Stripe",alt:"Icono de la pasarela de pago stripe", img:STRIPE},
     ];
   return (
-    <article className="bg-aboutme">
+    <main className="bg-aboutme">
         <div className="gradient"></div>
         <section className="aboutme">
 
             <article className="aboutme__card aboutme__card--about">
-                <h2 className="aboutme__title">Daniel de la Rosa</h2>
-                <h3 className="aboutme__subtitle">Full Stack Developer</h3>
+                <h1 className="aboutme__title">Daniel de la Rosa</h1>
+                <h2 className="aboutme__subtitle">Full Stack Developer</h2>
                 <p>Soy una persona autodidacta, siempre busco oportunidades para mejorar mis habilidades. Tengo experiencia en proyectos independientes y en equipo, incluso e desarrollado para empresas; mi mejor carta de presentación son los proyectos reales en los que he trabajo, asi que, echale un vistaso a mi portafolio.</p>
             </article>
 
@@ -85,7 +85,7 @@ const AboutMe = () => {
             </article>
 
         </section>
-    </article>
+    </main>
   )
 }
 

@@ -3,9 +3,9 @@ import ProyectItem from "../ProyectItem";
 
 const Portfolio = () => {
   return (
-    <main className="portfolio" id="prejects">
+    <article className="portfolio" id="prejects">
         <header className="portfolio__header">
-            <h1 className="title-alien">Proyectos</h1>
+            <h2 className="title-alien">Proyectos</h2>
         </header>
         <article className="portfolio__container">
             <aside className="portfolio__lateral">
@@ -18,7 +18,7 @@ const Portfolio = () => {
                 ))}
             </ul>
         </article>
-    </main>
+    </article>
   )
 }
 
